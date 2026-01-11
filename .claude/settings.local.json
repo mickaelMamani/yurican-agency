@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__shadcn__list_components",
+      "mcp__shadcn__get_component",
+      "Bash(npm create:*)",
+      "Bash(npm init -y)",
+      "Bash(npm install:*)",
+      "Bash(npx tailwindcss:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(npx shadcn@latest init -y)",
+      "Bash(npx shadcn@latest add:*)",
+      "Bash(timeout /t 5)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run dev:*)"
+    ]
+  }
+}
