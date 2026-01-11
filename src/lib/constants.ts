@@ -184,3 +184,53 @@ export const caseStudies = [
     industry: 'LegalTech',
   },
 ]
+
+export const processSteps = [
+  {
+    step: 1,
+    title: 'Audit',
+    desc: 'Diagnostic complet de votre stack RevOps, process et data quality',
+    icon: '🔍',
+  },
+  {
+    step: 2,
+    title: 'Design',
+    desc: 'Architecture de la solution adaptée à vos enjeux métier',
+    icon: '📐',
+  },
+  {
+    step: 3,
+    title: 'Build',
+    desc: 'Implémentation technique et intégrations sur mesure',
+    icon: '🔧',
+  },
+  {
+    step: 4,
+    title: 'Scale',
+    desc: 'Formation équipes et optimisation continue des performances',
+    icon: '🚀',
+  },
+]
+
+export const values = [
+  {
+    icon: '🎯',
+    title: 'Pragmatisme',
+    desc: 'Des solutions qui marchent, pas des slides. On mesure tout, on optimise en continu.',
+  },
+  {
+    icon: '🔧',
+    title: 'Technique',
+    desc: 'On code, on ne fait pas que conseiller. Notre équipe maîtrise Python, .NET, N8N, APIs.',
+  },
+  {
+    icon: '🤝',
+    title: 'Transparence',
+    desc: "Vous savez exactement ce qu'on fait, pourquoi et combien ça coûte. Pas de surprises.",
+  },
+  {
+    icon: '🇫🇷',
+    title: 'Expertise France',
+    desc: 'Données françaises (BODACC, SIRENE, BOAMP), réglementations locales, équipe basée à Paris.',
+  },
+]
