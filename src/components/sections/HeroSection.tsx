@@ -82,21 +82,6 @@ export function HeroSection() {
           </div>
         </div>
 
-        {/* Client logos */}
-        <div className="relative z-10 mt-16 pt-12 border-t border-white/10 w-full max-w-4xl animate-fade-in-up-delay-4">
-          <p className="text-blue-200/50 text-sm mb-6">Ils nous font confiance</p>
-          <div className="flex justify-center items-center gap-8 md:gap-12 flex-wrap opacity-50">
-            {clientLogos.map((client, i) => (
-              <div
-                key={i}
-                className="text-white/60 text-sm font-medium px-4 py-2 border border-white/20 rounded hover:opacity-100 transition-opacity"
-              >
-                {client.name}
-              </div>
-            ))}
-          </div>
-        </div>
-
         {/* Scroll indicator */}
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce-slow">
           <ChevronDown className="w-6 h-6 text-white/50" />
