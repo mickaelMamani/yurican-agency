@@ -2,7 +2,6 @@ import { useState } from 'react'
 import { ChevronDown } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { CalendlyModal } from '@/components/common/CalendlyModal'
-import { clientLogos } from '@/lib/constants'
 
 export function HeroSection() {
   const [calendlyOpen, setCalendlyOpen] = useState(false)
