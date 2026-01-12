@@ -1,27 +1,12 @@
 export const team = [
   {
-    name: 'Paul Dussart',
-    role: 'RevOps Lead',
-    background: 'Ex-Intescia (Corporama, Doubletrade...)',
-    skills: ['Salesforce', 'HubSpot', 'N8N', 'Make', 'PowerBI'],
-    initials: 'PD',
-    linkedin: 'https://linkedin.com/in/pauldussart',
-  },
-  {
     name: 'Jean-Philippe Roncari',
     role: 'Expert Data B2B',
     background: '7+ ans Data B2B @ Intescia',
     skills: ['Ciblage', 'Qualification', "Signaux d'affaires"],
     initials: 'JPR',
-    linkedin: 'https://linkedin.com/in/jean-philipperoncari-a8757215b',
-  },
-  {
-    name: 'Guillaume Clavier',
-    role: 'COO',
-    background: 'COO SocieteInfo, Ex-SG CIB M&A',
-    skills: ['Corporate Finance', 'Operations', 'Scale-up'],
-    initials: 'GC',
-    linkedin: 'https://linkedin.com/in/guillaumeclavier-36b0463b',
+    linkedin: 'https://linkedin.com/in/jean-philippe-roncari-a8757215b/',
+    image: '/jean_phillipe_profile.jpg',
   },
   {
     name: 'Mickael Mamani Cardona',
@@ -29,7 +14,8 @@ export const team = [
     background: 'Ex-Natixis, Ex-SG Front-Office',
     skills: ['C#/.NET', 'Python', 'Trading Tools', 'API'],
     initials: 'MM',
-    linkedin: 'https://linkedin.com/in/mickaelmamani-cardona',
+    linkedin: 'https://linkedin.com/in/mickael-mamani-cardona',
+    image: '/mickael_profile.jpg',
   },
 ]
 

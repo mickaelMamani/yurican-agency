@@ -5,11 +5,10 @@ interface ServiceCardProps {
   icon: string
   title: string
   description: string
-  price: string
   className?: string
 }
 
-export function ServiceCard({ icon, title, description, price, className }: ServiceCardProps) {
+export function ServiceCard({ icon, title, description, className }: ServiceCardProps) {
   return (
     <Card
       className={cn(
@@ -27,7 +26,6 @@ export function ServiceCard({ icon, title, description, price, className }: Serv
       </CardHeader>
       <CardContent className="p-0">
         <p className="text-slate-600 text-sm mb-4">{description}</p>
-        <p className="text-primary-light font-semibold text-sm">{price}</p>
       </CardContent>
     </Card>
   )

@@ -19,7 +19,6 @@ export function ServicesSection() {
               icon={service.icon}
               title={service.title}
               description={service.desc}
-              price={service.price}
             />
           ))}
         </div>

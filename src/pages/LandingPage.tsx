@@ -5,9 +5,7 @@ import {
   ServicesSection,
   DifferentiatorsSection,
   MetricsSection,
-  CaseStudiesSection,
   TeamSection,
-  TestimonialsSection,
   CTASection,
 } from '@/components/sections'
 
@@ -21,9 +19,7 @@ export default function LandingPage() {
         <ServicesSection />
         <DifferentiatorsSection />
         <MetricsSection />
-        <CaseStudiesSection />
         <TeamSection />
-        <TestimonialsSection />
         <CTASection />
       </main>
       <Footer />

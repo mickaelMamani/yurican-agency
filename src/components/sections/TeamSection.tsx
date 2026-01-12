@@ -7,12 +7,12 @@ export function TeamSection() {
     <section id="equipe" className="py-24 px-6 bg-white">
       <div className="max-w-6xl mx-auto">
         <SectionTitle
-          title="4 experts. 50+ ans d'expérience cumulée."
+          title="2 experts. 20+ ans d'expérience cumulée."
           subtitle="Une équipe qui a fait ses preuves chez les leaders de la data B2B française"
           className="mb-16"
         />
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="flex flex-wrap justify-center gap-8 md:gap-16">
           {team.map((member) => (
             <TeamMemberCard
               key={member.name}
@@ -22,6 +22,7 @@ export function TeamSection() {
               skills={member.skills}
               initials={member.initials}
               linkedin={member.linkedin}
+              avatarUrl={member.image}
             />
           ))}
         </div>
